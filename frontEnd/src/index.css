@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+input,textarea{
+    outline: none;
+    color: aliceblue !important;
+    background: transparent !important;
+}
+
+input::placeholder{
+    color: aliceblue !important;
+}
+
+.inputBg{
+    background-color: rgb(61, 84, 84) !important;
+}
